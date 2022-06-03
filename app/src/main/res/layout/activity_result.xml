@@ -7,11 +7,11 @@
     tools:context=".ResultActivity">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewBack"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -19,13 +19,13 @@
         app:srcCompat="@drawable/moeda_cara" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageViewBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageResult"
         app:srcCompat="@drawable/botao_voltar" />
 </androidx.constraintlayout.widget.ConstraintLayout>
